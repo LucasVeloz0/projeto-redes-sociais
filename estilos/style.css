@@ -65,3 +65,23 @@ section#redes-sociais img:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
     transition: transform 0.3s, border 0.8s;
 }
+
+a.voltar-ao-topo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff56; /* Cor de fundo do botão */
+    color: rgba(255, 255, 255, 0.507);
+    padding: 12px 16px;
+    border-radius: 50%; /* Torna o botão redondo */
+    text-align: center;
+    font-size: 16px;
+    z-index: 999; /* Coloca o botão acima dos demais elementos */
+    text-decoration: none;
+}
+
+a.voltar-ao-topo:hover {
+    color: white;
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+    transition: 0.5s;
+}
